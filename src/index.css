@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+ --primary:#1f3e72; 
+  --secondary:rgba(255, 255, 255, 0.78);
+  --black:#131110;
+  --blue-gradient:linear-gradient(97.05deg, #4066ff 3.86%, #2949c6 100%);
+  --orange-gradient:linear-gradient(270deg, #ffb878 0%, #ff922d 100%);
+  --blue:#4066ff;
+  --light-blue:#eeeeff;
+  --shadow:0px 23px 21px -8p rgba(136, 160, 255, 0.25);
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    scroll-behavior: smooth;
+  }
+  html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  body{
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+  }
+  button{
+    color: white;
+    background-color: var(--blue);
+    border-radius: 5px;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    transition: all 300ms ease-in;
+  }
+  button:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+  }
+  p{
+    color: #8c8b8b;
+  }
+  .scale-up-center {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  }
+  @media screen and (max-width:858px){
+    html{
+      font-size: 55%;
+    }
+  }
+  @media screen and (max-width:600px) {
+    html{
+      font-size: 45%;
+    }
+  }
+  @media  screen and (max-width:330) {
+    html{
+      font-size: 40%;
+    }
+  }
+  

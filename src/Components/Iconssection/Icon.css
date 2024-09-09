@@ -1,0 +1,19 @@
+.icons-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 4rem;
+}
+.icon-1 img{
+width: 15rem;
+}
+@media screen and (max-width:650px) {
+    .icons-container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+        margin-top: 4rem;
+        }
+}

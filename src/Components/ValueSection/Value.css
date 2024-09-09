@@ -1,0 +1,131 @@
+.value-section-container{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 10rem; */
+    margin-top: 13rem;
+}
+.value-image-container{
+    height: 44rem;
+    width: 38rem;
+    overflow: hidden;
+    border-radius: 18.5rem 18.5rem 0 0;
+    border: .8rem solid rgba(103, 88, 88, 0.12);
+    align-self: flex-end;
+    /* flex: 1; */
+}
+.value-image-container img{
+    height: 100%;
+    width: 100%;
+}
+.orange-value{
+    color: orange;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.value-give{
+    color: var(--primary);
+    font-size: 3.2rem;
+    font-weight: bolder;
+}
+.value-p{
+    color: var;
+    font-size: 1.4rem;
+    width: 45rem;
+}
+.top-value-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.value-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 2.8rem;
+}
+.accordian{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.accordian-item{
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: .8rem;
+    padding: 1.3rem 0px;
+    /* width: 540px; */
+    display: flex;
+    background-color: white;
+    gap: .2rem;
+    flex-direction: column;
+    align-content: center;
+}
+.item-heading{
+    color: var(--primary);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.accordian-button{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 1.6rem;
+    cursor: pointer;
+}
+.accordiat-detail{
+    font-size: 1.5rem;
+    font-weight: 400;
+       width: 52rem;
+}
+.icon{
+    padding: .5rem;
+    background: #eeeeff;
+    border-radius: .5rem;
+}
+.icon svg{
+    fill: var(--blue);
+    font-size: 2rem;
+}
+.accordian-item.expanded{
+    box-shadow: var(--shadow);
+    border-radius: .6rem;
+} 
+@media screen and (max-width:950px) {
+    .value-section-container{
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: column-reverse;
+        gap: 10rem;
+        margin-top: 10rem;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+    .value-image-container{
+        height: 50rem;
+        width: 44rem;
+        align-self: center;
+    }
+}
+@media screen and (max-width:465px){
+    .accordiat-detail{
+        font-size: 1.2rem;
+        font-weight: 400;
+           width: 30rem;
+    }
+    .value-image-container{
+        height: 47rem;
+        width: 41rem;
+        align-self: center;
+    }
+}
+@media screen and (max-width:355px) {
+    .value-p{
+        color: var;
+        font-size: 1.4rem;
+        width: 38rem;
+    }
+}
